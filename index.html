@@ -23,7 +23,8 @@
 
             <script id="candle" type="text/html">
                 <a-cylinder class="candle" color="blue" height="0.8" radius="0.05">
-                    <a-cone class="flame" color="yellow" height="0.4" radius-bottom="0.1" radius-top="0" position="0 0.6 0" remove-on-click>
+                    <a-cone class="flame" color="yellow" height="0.4" radius-bottom="0.1" radius-top="0" position="0 0.6 0" material="opacity: 0.75" remove-on-click>
+                        <a-cone color="red" height="0.2" radius-bottom="0.075" radius-top="0" position="0 -0.1 0" remove-on-click></a-cone>
                     </a-cone>
                 </a-cylinder>
             </script>
